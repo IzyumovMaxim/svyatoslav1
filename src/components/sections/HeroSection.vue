@@ -24,7 +24,7 @@ const modules = [Autoplay, EffectFade]
         <SwiperSlide v-for="(slide, i) in heroSlides" :key="i" class="h-full">
           <img
             :src="slide"
-            :alt="i === 0 ? 'Экскаватор ООО «ВолгаНефтеСтрой» на подводном переходе' : ''"
+            :alt="i === 0 ? 'Экскаватор ООО «ВолгаНефтеСтрой» на объекте' : ''"
             class="h-full w-full object-cover object-center"
             :loading="i === 0 ? 'eager' : 'lazy'"
             :fetchpriority="i === 0 ? 'high' : 'auto'"
@@ -38,13 +38,17 @@ const modules = [Autoplay, EffectFade]
       <div class="max-w-3xl">
         <p class="section-label !text-accent-500">Действующий подрядчик ПАО «Транснефть»</p>
         <h1 class="text-3xl font-extrabold uppercase leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
-          Строительство и демонтаж
-          <span class="text-accent-500">подводных переходов</span>
-          магистральных трубопроводов
+          Строительство и демонтаж магистральных трубопроводов
+          <span class="text-accent-500">под ключ</span>
         </h1>
-        <p class="mt-6 max-w-2xl text-base leading-relaxed text-slate-300 sm:text-lg">
-          Траншейный метод, экскаваторы 220, 340, 370 со стрелами 18 м, понтоны до 90 т и лебёдки для работы
-          на сильном течении. Собственная аттестованная лаборатория и НАКС.
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-slate-200 sm:text-lg">
+          Полный комплекс работ: земляные работы, прокладка и ремонт линейной части, укладка трубопроводов,
+          рекультивация. Особая специализация: сложные подводные переходы.
+        </p>
+        <p class="mt-4 max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
+          Земляные, строительно-монтажные и демонтажные работы на объектах магистральных трубопроводов. Собственный
+          парк техники: экскаваторы 220, 340, 370 со стрелами 18 м. Для подводных переходов: понтоны до 90 т и
+          лебёдки для работы на сильном течении. Собственная аттестованная лаборатория и НАКС.
         </p>
         <p class="mt-3 text-sm font-semibold uppercase tracking-wide text-slate-400">
           Работаем от объёмов · Цена договорная · {{ site.geography }}

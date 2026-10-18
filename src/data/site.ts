@@ -1,7 +1,4 @@
 import logo from '../assets/images/logo_vns.png'
-import slide1 from '../assets/images/12_slider.jpg'
-import slide2 from '../assets/images/22_slider.jpg'
-import slide3 from '../assets/images/32_slider.jpg'
 import sinomach from '../assets/images/sinomach.jpg'
 import w001 from '../assets/images/w001.jpg'
 import w002 from '../assets/images/w002.jpg'
@@ -17,7 +14,7 @@ import type { IconName } from './icons'
 
 export const site = {
   title: 'ООО «ВолгаНефтеСтрой»',
-  tagline: 'Строительство и демонтаж подводных переходов магистральных трубопроводов',
+  tagline: 'Строительство и демонтаж магистральных трубопроводов под ключ',
   phone: '+7 (929) 700-40-06',
   phoneHref: 'tel:+79297004006',
   email: 'volganeftestroj@gmail.com',
@@ -30,7 +27,8 @@ export const site = {
 // и вставляет сюда выданный Access Key. Ключ не секретный — Web3Forms рассчитан на публикацию в коде сайта.
 export const formAccessKey = ''
 
-export const heroSlides = [slide1, slide2, slide3]
+// Фото техники компании на объектах (не стоковые)
+export const heroSlides = [w003, w010, w004]
 
 export const galleryImages = [
   { src: sinomach, alt: 'Экскаватор ООО «ВолгаНефтеСтрой» на объекте' },
