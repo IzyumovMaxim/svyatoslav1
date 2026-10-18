@@ -5,7 +5,7 @@ import { site } from '../data/site'
 <template>
   <a
     :href="site.phoneHref"
-    class="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-accent-500 text-white shadow-lg shadow-accent-500/30 transition-transform hover:scale-105 hover:bg-accent-400 md:hidden"
+    class="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-accent-500 text-navy-900 shadow-lg shadow-navy-950/30 transition-transform hover:scale-105 hover:bg-accent-400 md:hidden"
     aria-label="Позвонить"
   >
     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
