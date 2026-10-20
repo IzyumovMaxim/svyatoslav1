@@ -11,7 +11,7 @@ import AppIcon from '../AppIcon.vue'
         <h2 class="section-title">Главные преимущества</h2>
       </div>
 
-      <div class="mt-10 grid gap-px bg-navy-700 sm:grid-cols-2 lg:grid-cols-5">
+      <div class="mt-10 grid gap-px bg-navy-700 sm:grid-cols-2 lg:grid-cols-3">
         <article v-for="(item, i) in advantages" :key="item.title" class="relative bg-navy-800 p-6">
           <span class="absolute right-5 top-4 text-3xl font-extrabold text-white/10">0{{ i + 1 }}</span>
           <div class="icon-box">

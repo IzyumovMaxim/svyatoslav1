@@ -15,7 +15,7 @@ function closeMenu() {
     <div class="container-x flex items-center justify-between py-2">
       <span class="flex items-center gap-2">
         <AppIcon name="pin" class="h-4 w-4 text-accent-500" />
-        {{ site.base }} · {{ site.geography }}
+        {{ site.geography }}
       </span>
       <div class="flex items-center gap-6">
         <a :href="`mailto:${site.email}`" class="flex items-center gap-2 hover:text-white">

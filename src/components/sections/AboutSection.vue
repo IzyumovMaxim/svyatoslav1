@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { aboutParagraphs, aboutTerms, companyStats } from '../../data/site'
+import { aboutParagraphs, aboutTerms, galleryImages } from '../../data/site'
 import AppIcon from '../AppIcon.vue'
 </script>
 
@@ -32,13 +32,8 @@ import AppIcon from '../AppIcon.vue'
         </ul>
       </div>
 
-      <div class="grid grid-cols-2 content-start gap-px self-start bg-navy-700 lg:col-span-5 lg:mt-16">
-        <div v-for="stat in companyStats" :key="stat.label" class="bg-navy-800 p-5 sm:p-7">
-          <p class="text-2xl font-extrabold text-accent-500 sm:text-3xl">{{ stat.value }}</p>
-          <p class="mt-2 text-xs font-medium uppercase leading-snug tracking-wide text-slate-300 sm:text-sm">
-            {{ stat.label }}
-          </p>
-        </div>
+      <div class="photo-frame aspect-[4/3] self-start border-b-4 border-accent-500 lg:col-span-5 lg:mt-16">
+        <img :src="galleryImages[0].src" :alt="galleryImages[0].alt" loading="lazy" />
       </div>
     </div>
   </section>

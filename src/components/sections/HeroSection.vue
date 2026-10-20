@@ -38,24 +38,20 @@ const modules = [Autoplay, EffectFade]
       <div class="max-w-3xl">
         <p class="section-label !text-accent-500">Действующий подрядчик ПАО «Транснефть»</p>
         <h1 class="text-3xl font-extrabold uppercase leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
-          Строительство и демонтаж магистральных трубопроводов
-          <span class="text-accent-500">под ключ</span>
+          Полный цикл строительных работ:
+          <span class="text-accent-500">от подводных переходов до промышленных объектов</span>
         </h1>
         <p class="mt-6 max-w-2xl text-base leading-relaxed text-slate-200 sm:text-lg">
-          Полный комплекс работ: земляные работы, прокладка и ремонт линейной части, укладка трубопроводов,
-          рекультивация. Особая специализация: сложные подводные переходы.
-        </p>
-        <p class="mt-4 max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
-          Земляные, строительно-монтажные и демонтажные работы на объектах магистральных трубопроводов. Собственный
-          парк техники: экскаваторы 220, 340, 370 со стрелами 18 м. Для подводных переходов: понтоны до 90 т и
-          лебёдки для работы на сильном течении. Собственная аттестованная лаборатория и НАКС.
+          Строим и демонтируем магистральные трубопроводы и подводные переходы траншейным методом. Выполняем
+          гражданское и промышленное строительство под ключ. Собственные техника, сварочная технология,
+          аттестованные строительная лаборатория и электролаборатория, НАКС.
         </p>
         <p class="mt-3 text-sm font-semibold uppercase tracking-wide text-slate-400">
           Работаем от объёмов · Цена договорная · {{ site.geography }}
         </p>
         <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
           <a href="#contact" class="btn-primary">Перезвоните мне</a>
-          <a href="#services" class="btn-outline">Виды работ</a>
+          <a href="#services" class="btn-outline">Все направления работ</a>
         </div>
       </div>
     </div>

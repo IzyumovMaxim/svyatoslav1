@@ -40,7 +40,7 @@ const ogrn = requisites.find((row) => row.label === 'ОГРН')?.value
         <ul class="space-y-2">
           <li><a :href="site.phoneHref" class="font-bold text-white hover:text-accent-500">{{ site.phone }}</a></li>
           <li><a :href="`mailto:${site.email}`" class="break-all hover:text-accent-500">{{ site.email }}</a></li>
-          <li>{{ site.base }} · {{ site.geography }}</li>
+          <li>{{ site.geography }}</li>
         </ul>
       </div>
     </div>

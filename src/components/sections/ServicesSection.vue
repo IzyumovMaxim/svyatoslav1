@@ -11,11 +11,13 @@ import AppIcon from '../AppIcon.vue'
         <h2 class="section-title">Виды работ</h2>
       </div>
 
-      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <!-- 5 карточек: на десктопе 3 + 2, последняя на планшете во всю ширину -->
+      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-6">
         <article
-          v-for="service in services"
+          v-for="(service, i) in services"
           :key="service.title"
           class="group flex flex-col border-t-4 border-navy-800 bg-white p-6 shadow-sm transition-colors hover:border-accent-500"
+          :class="[i < 3 ? 'lg:col-span-2' : 'lg:col-span-3', i === services.length - 1 && 'sm:col-span-2']"
         >
           <div class="icon-box">
             <AppIcon :name="service.icon" class="h-6 w-6" />

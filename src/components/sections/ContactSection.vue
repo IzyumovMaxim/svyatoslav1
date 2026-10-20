@@ -25,7 +25,7 @@ import CallbackForm from '../CallbackForm.vue'
           </a>
           <p class="flex items-center gap-4 text-slate-200">
             <span class="icon-box h-10 w-10"><AppIcon name="pin" class="h-5 w-5" /></span>
-            <span>Базируемся: {{ site.base }}. {{ site.geography }}.</span>
+            <span>{{ site.geography }}: выполняем работы в любой точке страны.</span>
           </p>
         </div>
 
